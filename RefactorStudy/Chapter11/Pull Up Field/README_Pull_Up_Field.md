@@ -32,5 +32,6 @@ Employee 是父类，子类为 Saleman 和 Engineer，在两个子类中分别�
 
 1. 统一字段名字为 salary，编译测试通过(通过 Xcode 自带的 Refactory 方式更快)
 2. 在超类中新建字段 salary，并移除子类中的字段, 编译测试
+3. 在父类中对新增加的字段使用 *Self Encapsulate Field* 
 
 

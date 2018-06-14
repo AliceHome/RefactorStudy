@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         
         let _: Employee = Employee(firstName: "Jack", lastName: "Tom", salary: 1200.0)
         let _: Saleman = Saleman(firstName: "Nothing", lastName: "Dldldl", salary: 3000.0)
+        
+        let rose:Enginner = Enginner(firstName: "Rose", lastName: "Jhon", salary: 1500.0)
+        rose.updateSalary(newSalary: 2000.0)
+        print("the full name is \(rose.fullName), salary: \(rose.getSalary())")
+
     }
 
  
