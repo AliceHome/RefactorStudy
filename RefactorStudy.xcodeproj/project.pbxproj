@@ -17,6 +17,9 @@
 		F518CBA720D21C6600426F5C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBA620D21C6600426F5C /* Employee.swift */; };
 		F518CBA920D21FC100426F5C /* Saleman.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBA820D21FC100426F5C /* Saleman.swift */; };
 		F518CBAB20D21FCD00426F5C /* Engineer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBAA20D21FCD00426F5C /* Engineer.swift */; };
+		F518CBD220D2607600426F5C /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBD120D2607600426F5C /* Customer.swift */; };
+		F518CBD520D2612600426F5C /* RegularCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBD420D2612600426F5C /* RegularCustomer.swift */; };
+		F518CBD720D2614000426F5C /* PreferredCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBD620D2614000426F5C /* PreferredCustomer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,10 @@
 		F518CBA820D21FC100426F5C /* Saleman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saleman.swift; sourceTree = "<group>"; };
 		F518CBAA20D21FCD00426F5C /* Engineer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engineer.swift; sourceTree = "<group>"; };
 		F518CBAC20D2215200426F5C /* README_Pull_Up_Field.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Pull_Up_Field.md; sourceTree = "<group>"; };
+		F518CBD120D2607600426F5C /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F518CBD320D2609C00426F5C /* README_Pull_Up_Method.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Pull_Up_Method.md; sourceTree = "<group>"; };
+		F518CBD420D2612600426F5C /* RegularCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCustomer.swift; sourceTree = "<group>"; };
+		F518CBD620D2614000426F5C /* PreferredCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredCustomer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,12 +151,13 @@
 		F518CBA420D21C3900426F5C /* Chapter11 */ = {
 			isa = PBXGroup;
 			children = (
-				F518CBA520D21C4500426F5C /* Pull Up Field */,
+				F518CBA520D21C4500426F5C /* 1 Pull Up Field */,
+				F518CBAD20D22A3900426F5C /* 2 Pull Up Method */,
 			);
 			path = Chapter11;
 			sourceTree = "<group>";
 		};
-		F518CBA520D21C4500426F5C /* Pull Up Field */ = {
+		F518CBA520D21C4500426F5C /* 1 Pull Up Field */ = {
 			isa = PBXGroup;
 			children = (
 				F518CBA620D21C6600426F5C /* Employee.swift */,
@@ -157,7 +165,18 @@
 				F518CBAA20D21FCD00426F5C /* Engineer.swift */,
 				F518CBAC20D2215200426F5C /* README_Pull_Up_Field.md */,
 			);
-			path = "Pull Up Field";
+			path = "1 Pull Up Field";
+			sourceTree = "<group>";
+		};
+		F518CBAD20D22A3900426F5C /* 2 Pull Up Method */ = {
+			isa = PBXGroup;
+			children = (
+				F518CBD120D2607600426F5C /* Customer.swift */,
+				F518CBD420D2612600426F5C /* RegularCustomer.swift */,
+				F518CBD620D2614000426F5C /* PreferredCustomer.swift */,
+				F518CBD320D2609C00426F5C /* README_Pull_Up_Method.md */,
+			);
+			path = "2 Pull Up Method";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +313,9 @@
 				F518CB7820D21C0B00426F5C /* ViewController.swift in Sources */,
 				F518CBA920D21FC100426F5C /* Saleman.swift in Sources */,
 				F518CBAB20D21FCD00426F5C /* Engineer.swift in Sources */,
+				F518CBD720D2614000426F5C /* PreferredCustomer.swift in Sources */,
+				F518CBD220D2607600426F5C /* Customer.swift in Sources */,
+				F518CBD520D2612600426F5C /* RegularCustomer.swift in Sources */,
 				F518CBA720D21C6600426F5C /* Employee.swift in Sources */,
 				F518CB7620D21C0B00426F5C /* AppDelegate.swift in Sources */,
 			);

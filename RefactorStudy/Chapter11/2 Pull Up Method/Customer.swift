@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class Customer {
+    var name: String
+    var lastDate: NSDate = NSDate.init(timeIntervalSinceNow: 0)
+    
+    init(name: String) {
+        self.name = name
+    }
+    func addBill(date: NSDate, amount: Double) {
+        lastDate = date
+        print("\(date.description)")
+        print("\(name) add bill: $\(amount)")
+    }
+    
+}

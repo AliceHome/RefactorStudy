@@ -33,4 +33,17 @@ class RefactorStudyTests: XCTestCase {
         }
     }
     
+    
+    
+    func testCustomer() {
+        let r: RegularCustomer = RegularCustomer(name: "Tom")
+        r.createBill(date: NSDate.init(timeIntervalSinceNow: 0))
+        XCTAssertEqual(200.0, r.chargeFor(start: NSDate.init(timeIntervalSinceNow: 0), end: NSDate.init(timeIntervalSinceNow: 0)))
+        
+        let p: PreferredCustomer = PreferredCustomer(name: "Rose")
+        p.createBill(date: NSDate.init(timeIntervalSinceNow: 0))
+        XCTAssertEqual(100.0, p.chargeFor(start: NSDate.init(timeIntervalSinceNow: 0), end: NSDate.init(timeIntervalSinceNow: 0)))
+      
+    }
+    
 }

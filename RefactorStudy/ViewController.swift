@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+    }
+
+    func pullUpMethod() {
+        let jack = Customer(name: "Jack")
+        jack.addBill(date: NSDate.init(timeIntervalSinceNow: 0), amount: 12.0)
+        
+    }
+    
+    func pullUpFiled() {
+        
         let Tom:Employee = Employee(firstName: "Tom", lastName: "Toony")
         print("the full name is \(Tom.fullName)")
         
@@ -25,7 +35,6 @@ class ViewController: UIViewController {
         print("the full name is \(rose.fullName), salary: \(rose.getSalary())")
 
     }
-
  
 
 }
