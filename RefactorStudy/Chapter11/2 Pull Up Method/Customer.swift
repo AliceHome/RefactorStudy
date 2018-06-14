@@ -26,4 +26,10 @@ class Customer {
         return 0.0;
     }
     
+    func createBill(date: NSDate) {
+        let chargeAmount = chargeFor(start: lastDate , end: date)
+        addBill(date: date, amount: chargeAmount)
+    }
+    
+
 }
