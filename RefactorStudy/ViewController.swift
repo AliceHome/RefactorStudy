@@ -13,13 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let Tom:Employee = Employee(firstName: "Tom", lastName: "Toony")
+        print("the full name is \(Tom.fullName)")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+ 
 
 }
 
