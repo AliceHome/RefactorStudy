@@ -28,4 +28,6 @@ Employee 是父类，子类为 Saleman 和 Engineer，在两个子类中分别�
 - salary
 - wages
 
-我们就针对这两个字段进行上移操作。首先，统一字段名字为 salary
+我们就针对这两个字段进行上移操作。
+首先，统一字段名字为 salary，编译测试通过
+

@@ -8,5 +8,9 @@
 
 import Foundation
 class Enginner: Employee {
-    var salary: Double = 0.0
+    var wages: Double = 0.0
+    init(firstName: String, lastName: String, wages: Double) {
+        super.init(firstName: firstName, lastName: lastName)
+        self.wages = wages
+    }
 }
