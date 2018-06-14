@@ -17,4 +17,4 @@ func createBill(date: NSDate) {
 }
 ```
 
-但是我们不能直接将这个函数上移，因为这个函数中调用的 chargeFor() 函数在两个类中的实现不同，所以首先在父类 Customer 中声明抽象函数 chargeFor()
+但是我们不能直接将这个函数上移，因为这个函数中调用的 chargeFor() 函数在两个类中的实现不同，所以首先在父类 Customer 中声明抽象函数 chargeFor() 

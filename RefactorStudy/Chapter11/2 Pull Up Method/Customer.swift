@@ -21,4 +21,9 @@ class Customer {
         print("\(name) add bill: $\(amount)")
     }
     
+    func chargeFor(start: NSDate, end: NSDate) -> Double{
+        print("Customer chargeFor: $100.0")
+        return 0.0;
+    }
+    
 }

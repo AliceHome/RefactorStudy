@@ -14,7 +14,7 @@ class PreferredCustomer: Customer {
         addBill(date: date, amount: chargeAmount)
     }
 
-    func chargeFor(start: NSDate, end: NSDate) -> Double{
+    override func chargeFor(start: NSDate, end: NSDate) -> Double{
         print("PreferredCustomer chargeFor: $200.0")
         return 100.0;
     }
