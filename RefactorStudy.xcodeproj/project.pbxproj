@@ -53,6 +53,7 @@
 		F518CBA620D21C6600426F5C /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		F518CBA820D21FC100426F5C /* Saleman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saleman.swift; sourceTree = "<group>"; };
 		F518CBAA20D21FCD00426F5C /* Engineer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engineer.swift; sourceTree = "<group>"; };
+		F518CBAC20D2215200426F5C /* README_Pull_Up_Field.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Pull_Up_Field.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +155,7 @@
 				F518CBA620D21C6600426F5C /* Employee.swift */,
 				F518CBA820D21FC100426F5C /* Saleman.swift */,
 				F518CBAA20D21FCD00426F5C /* Engineer.swift */,
+				F518CBAC20D2215200426F5C /* README_Pull_Up_Field.md */,
 			);
 			path = "Pull Up Field";
 			sourceTree = "<group>";

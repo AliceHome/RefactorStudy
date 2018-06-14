@@ -8,5 +8,5 @@
 
 import Foundation
 class Enginner: Employee {
-    var wages: Double = 0.0
+    var salary: Double = 0.0
 }
