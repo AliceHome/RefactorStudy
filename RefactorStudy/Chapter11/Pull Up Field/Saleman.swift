@@ -7,11 +7,5 @@
 //
 
 import Foundation
-class Saleman: Employee {
-    var salary: Double = 0.0
-    
-    init(firstName: String, lastName: String, salary: Double) {
-        super.init(firstName: firstName, lastName: lastName)
-        self.salary = salary
-    }
+class Saleman: Employee {    
 }
