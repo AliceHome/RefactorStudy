@@ -49,10 +49,12 @@ class RefactorStudyTests: XCTestCase {
     func testManager() {
         
         let emp = EmployeeC(name: "Tome", id: "123456")
-        let manager = Manager(name: "Jack", id: "1234567", grade: 12)
-        
+        let manager1 = Manager(name: "Jack", id: "120", grade: 12)
+        let manager2 = Manager(name: "Jack", id: "120", grade: 2)
         XCTAssertNotNil(emp)
-        XCTAssertNotNil(manager)
+        XCTAssertNotNil(manager1)
+        XCTAssertTrue(manager1.isPriviliged())
+        XCTAssertFalse(manager2.isPriviliged())
         
     }
     
