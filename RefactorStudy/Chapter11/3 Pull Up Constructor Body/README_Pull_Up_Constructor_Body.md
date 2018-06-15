@@ -14,3 +14,18 @@ EmployeeC 类中的属性要在构造函数中设置初值，因此定义了一�
 ## step 3
 
 构造函数出现了共同代码，这里假设 EmployeeC 的子类有很多
+
+
+## step 4 
+
+但是不能直接将 
+
+```
+if isPriviliged() {
+assignCar()// every subclass does this
+//...
+}
+```
+
+这部分代码直接提炼到父类的 init 函数中，因为父类不能调用  isPriviliged() 函数，所以使用 Extract Method 单独提出一个函数，放到父类中
+

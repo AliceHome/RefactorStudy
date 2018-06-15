@@ -16,11 +16,7 @@ class Manager: EmployeeC {
         self.grade = grade
         super.init(name: name, id: id)
         
-        // EmployeeC 的每个自子类都需要实现下面的这部分代码
-        if isPriviliged() {
-            assignCar()// every subclass does this
-            //...
-        }
+        initialize()
     }
     
     override func isPriviliged() -> Bool {

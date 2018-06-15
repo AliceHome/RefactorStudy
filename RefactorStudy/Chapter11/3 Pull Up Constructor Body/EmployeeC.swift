@@ -17,6 +17,14 @@ class EmployeeC   {
         self.name = name
         self.id = id
     }
+    
+    func initialize() {
+        // EmployeeC 的每个自子类都需要实现下面的这部分代码
+        if isPriviliged() {
+            assignCar()// every subclass does this
+            //...
+        }
+    }
 
     // 是否为会员是通过 grade 来判断的， EmployeeC 中没有 grade 字段，所以不能调用这个方法
     func isPriviliged() -> Bool {
