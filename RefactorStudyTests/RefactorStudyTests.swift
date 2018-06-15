@@ -32,9 +32,8 @@ class RefactorStudyTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    
-    
+
+    /// 2. Pull Up Method
     func testCustomer() {
         let r: RegularCustomer = RegularCustomer(name: "Tom")
         r.createBill(date: NSDate.init(timeIntervalSinceNow: 0))
@@ -44,6 +43,17 @@ class RefactorStudyTests: XCTestCase {
         p.createBill(date: NSDate.init(timeIntervalSinceNow: 0))
         XCTAssertEqual(100.0, p.chargeFor(start: NSDate.init(timeIntervalSinceNow: 0), end: NSDate.init(timeIntervalSinceNow: 0)))
       
+    }
+    
+    /// 3. Pull Up Constructor Body
+    func testManager() {
+        
+        let emp = EmployeeC(name: "Tome", id: "123456")
+        let manager = Manager(name: "Jack", id: "1234567", grade: 12)
+        
+        XCTAssertNotNil(emp)
+        XCTAssertNotNil(manager)
+        
     }
     
 }
