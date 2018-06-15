@@ -20,6 +20,8 @@
 		F518CBD220D2607600426F5C /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBD120D2607600426F5C /* Customer.swift */; };
 		F518CBD520D2612600426F5C /* RegularCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBD420D2612600426F5C /* RegularCustomer.swift */; };
 		F518CBD720D2614000426F5C /* PreferredCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518CBD620D2614000426F5C /* PreferredCustomer.swift */; };
+		F5D84ED820D35A7E007E1C20 /* EmployeeC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D84ED720D35A7E007E1C20 /* EmployeeC.swift */; };
+		F5D84EDA20D35ADF007E1C20 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D84ED920D35ADF007E1C20 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		F518CBD320D2609C00426F5C /* README_Pull_Up_Method.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Pull_Up_Method.md; sourceTree = "<group>"; };
 		F518CBD420D2612600426F5C /* RegularCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCustomer.swift; sourceTree = "<group>"; };
 		F518CBD620D2614000426F5C /* PreferredCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredCustomer.swift; sourceTree = "<group>"; };
+		F5D84ED720D35A7E007E1C20 /* EmployeeC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeC.swift; sourceTree = "<group>"; };
+		F5D84ED920D35ADF007E1C20 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		F5D84EDB20D35C5D007E1C20 /* README_Pull_Up_Constructor_Body.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Pull_Up_Constructor_Body.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +158,7 @@
 			children = (
 				F518CBA520D21C4500426F5C /* 1 Pull Up Field */,
 				F518CBAD20D22A3900426F5C /* 2 Pull Up Method */,
+				F5D84ED620D35A33007E1C20 /* 3 Pull Up Constructor Body */,
 			);
 			path = Chapter11;
 			sourceTree = "<group>";
@@ -177,6 +183,16 @@
 				F518CBD320D2609C00426F5C /* README_Pull_Up_Method.md */,
 			);
 			path = "2 Pull Up Method";
+			sourceTree = "<group>";
+		};
+		F5D84ED620D35A33007E1C20 /* 3 Pull Up Constructor Body */ = {
+			isa = PBXGroup;
+			children = (
+				F5D84ED720D35A7E007E1C20 /* EmployeeC.swift */,
+				F5D84ED920D35ADF007E1C20 /* Manager.swift */,
+				F5D84EDB20D35C5D007E1C20 /* README_Pull_Up_Constructor_Body.md */,
+			);
+			path = "3 Pull Up Constructor Body";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +334,8 @@
 				F518CBD520D2612600426F5C /* RegularCustomer.swift in Sources */,
 				F518CBA720D21C6600426F5C /* Employee.swift in Sources */,
 				F518CB7620D21C0B00426F5C /* AppDelegate.swift in Sources */,
+				F5D84ED820D35A7E007E1C20 /* EmployeeC.swift in Sources */,
+				F5D84EDA20D35ADF007E1C20 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
